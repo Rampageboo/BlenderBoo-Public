@@ -1,0 +1,107 @@
+{
+  "fixture": {
+    "status": "pass",
+    "operations": [
+      {
+        "operation": "landmark_warp",
+        "method": null,
+        "moved": 7,
+        "max_mm": 1.9999999785795808
+      },
+      {
+        "operation": "landmark_warp",
+        "method": "harmonic",
+        "moved": 7,
+        "max_mm": 1.9999999785795808
+      },
+      {
+        "operation": "normal_offset",
+        "method": null,
+        "moved": 7,
+        "max_mm": 0.20000000949949026
+      },
+      {
+        "operation": "relax",
+        "method": null,
+        "moved": 7,
+        "max_mm": 0.8281250338768587
+      },
+      {
+        "operation": "crease",
+        "method": null,
+        "moved": 7,
+        "max_mm": 0.19999999166198845
+      },
+      {
+        "operation": "seam_smooth",
+        "method": null,
+        "moved": 7,
+        "max_mm": 0.8136528049362823
+      }
+    ],
+    "symmetry_error_m": 0.0
+  },
+  "production": {
+    "status": "pass",
+    "direction": "fresh_scaled_Quinn_topology_to_existing_similarity_aligned_A02_fit",
+    "fixture": "<redacted-local-path>",
+    "production_modified": false,
+    "head_samples": 5580,
+    "landmarks": 4901,
+    "selected_strength": 0.98,
+    "collision_pinned_vertices": 695,
+    "search": [
+      {
+        "strength": 0.94,
+        "pinned_vertices": 0,
+        "median_mm": 0.1992147444980219,
+        "new_intersections": 171
+      },
+      {
+        "strength": 0.96,
+        "pinned_vertices": 0,
+        "median_mm": 0.13292254152474925,
+        "new_intersections": 236
+      },
+      {
+        "strength": 0.98,
+        "pinned_vertices": 0,
+        "median_mm": 0.0664298604533542,
+        "new_intersections": 315
+      },
+      {
+        "strength": 1.0,
+        "pinned_vertices": 0,
+        "median_mm": 1.8995327977222587e-05,
+        "new_intersections": 805
+      },
+      {
+        "strength": 0.98,
+        "pinned_vertices": 637,
+        "median_mm": 0.0742708180041518,
+        "new_intersections": 30
+      },
+      {
+        "strength": 0.98,
+        "pinned_vertices": 689,
+        "median_mm": 0.0748026322980877,
+        "new_intersections": 1
+      },
+      {
+        "strength": 0.98,
+        "pinned_vertices": 695,
+        "median_mm": 0.0748026322980877,
+        "new_intersections": 0
+      }
+    ],
+    "median_before_mm": 3.228607471100986,
+    "median_after_mm": 0.0748026322980877,
+    "self_intersections_before": 563,
+    "self_intersections_after": 547,
+    "new_self_intersections": 0,
+    "new_pair_examples": [],
+    "max_displacement_mm": 28.479285399216938,
+    "unselected_coordinates_byte_identical": true,
+    "dry_run_moved": 6033
+  }
+}

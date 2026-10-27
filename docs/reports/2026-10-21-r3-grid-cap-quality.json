@@ -1,0 +1,493 @@
+{
+  "lathe_vertices": 322,
+  "lathe_faces": 320,
+  "valences": {
+    "3": 8,
+    "4": 314
+  },
+  "poles": [
+    {
+      "vertex": 0,
+      "valence": 3,
+      "z": 0.0
+    },
+    {
+      "vertex": 8,
+      "valence": 3,
+      "z": 0.0
+    },
+    {
+      "vertex": 16,
+      "valence": 3,
+      "z": 0.0
+    },
+    {
+      "vertex": 24,
+      "valence": 3,
+      "z": 0.0
+    },
+    {
+      "vertex": 192,
+      "valence": 3,
+      "z": 2.0
+    },
+    {
+      "vertex": 200,
+      "valence": 3,
+      "z": 2.0
+    },
+    {
+      "vertex": 208,
+      "valence": 3,
+      "z": 2.0
+    },
+    {
+      "vertex": 216,
+      "valence": 3,
+      "z": 2.0
+    }
+  ],
+  "explicit_cap_corner_allowlist": [
+    0,
+    8,
+    16,
+    24,
+    192,
+    200,
+    208,
+    216
+  ],
+  "strict": {
+    "object": "Lathe32",
+    "vertices": 322,
+    "edges": 640,
+    "faces": 320,
+    "quads": 320,
+    "triangle_faces": 0,
+    "ngons": 0,
+    "triangles": 640,
+    "triangle_budget": null,
+    "within_budget": null,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "islands": 1,
+    "island_vertices": [
+      322
+    ],
+    "smallest_islands": [
+      {
+        "vertices": 322,
+        "faces": 320,
+        "focus": {
+          "point": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "radius": 1.1650599027937565
+        },
+        "focus_radius": 1.1650599027937565,
+        "bbox_volume_ratio": 1.0
+      }
+    ],
+    "poles": [
+      {
+        "vertex": 0,
+        "valence": 3,
+        "position": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bend_zone": null
+      },
+      {
+        "vertex": 8,
+        "valence": 3,
+        "position": [
+          6.123234262925839e-17,
+          1.0,
+          0.0
+        ],
+        "bend_zone": null
+      },
+      {
+        "vertex": 16,
+        "valence": 3,
+        "position": [
+          -1.0,
+          1.2246468525851679e-16,
+          0.0
+        ],
+        "bend_zone": null
+      },
+      {
+        "vertex": 24,
+        "valence": 3,
+        "position": [
+          -1.8369701465288538e-16,
+          -1.0,
+          0.0
+        ],
+        "bend_zone": null
+      },
+      {
+        "vertex": 192,
+        "valence": 3,
+        "position": [
+          1.0,
+          0.0,
+          2.0
+        ],
+        "bend_zone": null
+      },
+      {
+        "vertex": 200,
+        "valence": 3,
+        "position": [
+          6.123234262925839e-17,
+          1.0,
+          2.0
+        ],
+        "bend_zone": null
+      },
+      {
+        "vertex": 208,
+        "valence": 3,
+        "position": [
+          -1.0,
+          1.2246468525851679e-16,
+          2.0
+        ],
+        "bend_zone": null
+      },
+      {
+        "vertex": 216,
+        "valence": 3,
+        "position": [
+          -1.8369701465288538e-16,
+          -1.0,
+          2.0
+        ],
+        "bend_zone": null
+      }
+    ],
+    "pole_count": 8,
+    "poles_in_bend_zones": [],
+    "tiny_face_area_threshold": 2.368799501657486e-07,
+    "tiny_face_count": 0,
+    "tiny_face_indices": [],
+    "degenerate_face_count": 0,
+    "degenerate_face_indices": [],
+    "face_area": {
+      "min": 0.00671426672488451,
+      "median": 0.04091447591781616,
+      "max": 0.2591240108013153
+    },
+    "edge_ratio": {
+      "min": 0.07928520803355373,
+      "median": 0.18354685868618664,
+      "max": 0.982259984685997
+    },
+    "connectivity_hash": "f8eedea4aedc36603172d80104ebe2feb2030878417f306c9b300d9db80d23ae",
+    "loop_traces": null,
+    "symmetry": null,
+    "focus": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "poles_truncated": false,
+    "pass": true,
+    "analysis_complete": true,
+    "failures": [],
+    "geometry": "base_mesh_modifiers_not_evaluated",
+    "part_attribute": null,
+    "allowed_loop_break_vertices": [],
+    "thresholds": {
+      "sliver_min_edge": 0.0,
+      "sliver_min_angle_deg": 1.0,
+      "symmetry_plane_x": null,
+      "symmetry_tolerance_m": null,
+      "require_quads": true,
+      "triangle_budget": null
+    },
+    "self_intersections": {
+      "status": "measured",
+      "count": 0,
+      "inside_parts": 0,
+      "between_parts": 0,
+      "inside_part_positions": [],
+      "between_part_positions": [],
+      "positions": [],
+      "samples": [],
+      "position_method": "midpoint_of_face_centers_not_exact_contact",
+      "candidate_count": 3,
+      "candidate_limit": 500000,
+      "triangle_limit": 100000,
+      "count_is_lower_bound": false,
+      "truncated": false,
+      "reason": null
+    },
+    "slivers": {
+      "count": 0,
+      "samples": [],
+      "truncated": false
+    },
+    "loop_continuity": {
+      "method": "maximal_opposite_edge_paths_in_quad_fans",
+      "path_count": 129,
+      "closed_path_count": 5,
+      "broken_path_count": 0,
+      "ambiguous_path_count": 0,
+      "unbroken_share": 1.0,
+      "unexpected_endpoint_count": 0,
+      "positions": [],
+      "vertices": [],
+      "irregular_vertex_count": 0,
+      "irregular_positions": [],
+      "allowed_endpoint_count": 0,
+      "allowed_endpoint_vertices": [],
+      "allowed_endpoint_positions": [],
+      "truncated": false
+    },
+    "world_zero_area_faces": 0,
+    "measurement_units": {
+      "positions": "world_scene_units",
+      "sliver_min_edge": "world_scene_units",
+      "symmetry_plane_x": "world_scene_units",
+      "symmetry_distance": "meters",
+      "topology_face_area": "object_local_units_squared",
+      "meters_per_scene_unit": 1.0,
+      "scene_unit_system": "METRIC"
+    },
+    "limits": {
+      "sample_limit": 32,
+      "max_vertices": 100000,
+      "max_triangles": 100000,
+      "max_allowed_loop_break_vertices": 256,
+      "max_overlap_candidates": 500000
+    }
+  },
+  "allowed": {
+    "object": "Lathe32",
+    "vertices": 322,
+    "edges": 640,
+    "faces": 320,
+    "quads": 320,
+    "triangle_faces": 0,
+    "ngons": 0,
+    "triangles": 640,
+    "triangle_budget": null,
+    "within_budget": null,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "islands": 1,
+    "island_vertices": [
+      322
+    ],
+    "smallest_islands": [
+      {
+        "vertices": 322,
+        "faces": 320,
+        "focus": {
+          "point": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "radius": 1.1650599027937565
+        },
+        "focus_radius": 1.1650599027937565,
+        "bbox_volume_ratio": 1.0
+      }
+    ],
+    "poles": [
+      {
+        "vertex": 0,
+        "valence": 3,
+        "position": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "bend_zone": null
+      },
+      {
+        "vertex": 8,
+        "valence": 3,
+        "position": [
+          6.123234262925839e-17,
+          1.0,
+          0.0
+        ],
+        "bend_zone": null
+      },
+      {
+        "vertex": 16,
+        "valence": 3,
+        "position": [
+          -1.0,
+          1.2246468525851679e-16,
+          0.0
+        ],
+        "bend_zone": null
+      },
+      {
+        "vertex": 24,
+        "valence": 3,
+        "position": [
+          -1.8369701465288538e-16,
+          -1.0,
+          0.0
+        ],
+        "bend_zone": null
+      },
+      {
+        "vertex": 192,
+        "valence": 3,
+        "position": [
+          1.0,
+          0.0,
+          2.0
+        ],
+        "bend_zone": null
+      },
+      {
+        "vertex": 200,
+        "valence": 3,
+        "position": [
+          6.123234262925839e-17,
+          1.0,
+          2.0
+        ],
+        "bend_zone": null
+      },
+      {
+        "vertex": 208,
+        "valence": 3,
+        "position": [
+          -1.0,
+          1.2246468525851679e-16,
+          2.0
+        ],
+        "bend_zone": null
+      },
+      {
+        "vertex": 216,
+        "valence": 3,
+        "position": [
+          -1.8369701465288538e-16,
+          -1.0,
+          2.0
+        ],
+        "bend_zone": null
+      }
+    ],
+    "pole_count": 8,
+    "poles_in_bend_zones": [],
+    "tiny_face_area_threshold": 2.368799501657486e-07,
+    "tiny_face_count": 0,
+    "tiny_face_indices": [],
+    "degenerate_face_count": 0,
+    "degenerate_face_indices": [],
+    "face_area": {
+      "min": 0.00671426672488451,
+      "median": 0.04091447591781616,
+      "max": 0.2591240108013153
+    },
+    "edge_ratio": {
+      "min": 0.07928520803355373,
+      "median": 0.18354685868618664,
+      "max": 0.982259984685997
+    },
+    "connectivity_hash": "f8eedea4aedc36603172d80104ebe2feb2030878417f306c9b300d9db80d23ae",
+    "loop_traces": null,
+    "symmetry": null,
+    "focus": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "poles_truncated": false,
+    "pass": true,
+    "analysis_complete": true,
+    "failures": [],
+    "geometry": "base_mesh_modifiers_not_evaluated",
+    "part_attribute": null,
+    "allowed_loop_break_vertices": [
+      0,
+      8,
+      16,
+      24,
+      192,
+      200,
+      208,
+      216
+    ],
+    "thresholds": {
+      "sliver_min_edge": 0.0,
+      "sliver_min_angle_deg": 1.0,
+      "symmetry_plane_x": null,
+      "symmetry_tolerance_m": null,
+      "require_quads": true,
+      "triangle_budget": null
+    },
+    "self_intersections": {
+      "status": "measured",
+      "count": 0,
+      "inside_parts": 0,
+      "between_parts": 0,
+      "inside_part_positions": [],
+      "between_part_positions": [],
+      "positions": [],
+      "samples": [],
+      "position_method": "midpoint_of_face_centers_not_exact_contact",
+      "candidate_count": 3,
+      "candidate_limit": 500000,
+      "triangle_limit": 100000,
+      "count_is_lower_bound": false,
+      "truncated": false,
+      "reason": null
+    },
+    "slivers": {
+      "count": 0,
+      "samples": [],
+      "truncated": false
+    },
+    "loop_continuity": {
+      "method": "maximal_opposite_edge_paths_in_quad_fans",
+      "path_count": 129,
+      "closed_path_count": 5,
+      "broken_path_count": 0,
+      "ambiguous_path_count": 0,
+      "unbroken_share": 1.0,
+      "unexpected_endpoint_count": 0,
+      "positions": [],
+      "vertices": [],
+      "irregular_vertex_count": 0,
+      "irregular_positions": [],
+      "allowed_endpoint_count": 0,
+      "allowed_endpoint_vertices": [],
+      "allowed_endpoint_positions": [],
+      "truncated": false
+    },
+    "world_zero_area_faces": 0,
+    "measurement_units": {
+      "positions": "world_scene_units",
+      "sliver_min_edge": "world_scene_units",
+      "symmetry_plane_x": "world_scene_units",
+      "symmetry_distance": "meters",
+      "topology_face_area": "object_local_units_squared",
+      "meters_per_scene_unit": 1.0,
+      "scene_unit_system": "METRIC"
+    },
+    "limits": {
+      "sample_limit": 32,
+      "max_vertices": 100000,
+      "max_triangles": 100000,
+      "max_allowed_loop_break_vertices": 256,
+      "max_overlap_candidates": 500000
+    }
+  }
+}

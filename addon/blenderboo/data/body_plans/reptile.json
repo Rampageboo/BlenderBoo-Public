@@ -1,0 +1,21 @@
+{
+  "body_plan": "reptile",
+  "landmark_property": "cbt_landmark",
+  "joints": [
+    {"name":"pelvis","default_position":[0,0.15,0.0],"radius_factor":1.2},
+    {"name":"chest","parent":"pelvis","default_position":[0,-0.15,0.05],"radius_factor":1.4},
+    {"name":"neck","parent":"chest","default_position":[0,-0.34,0.13],"radius_factor":0.65},
+    {"name":"head","parent":"neck","default_position":[0,-0.48,0.16],"radius_factor":0.9},
+    {"name":"tail_base","parent":"pelvis","default_position":[0,0.32,-0.02],"radius_factor":0.8},
+    {"name":"tail_mid","parent":"tail_base","default_position":[0,0.43,-0.08],"radius_factor":0.45},
+    {"name":"tail_tip","parent":"tail_mid","default_position":[0,0.5,-0.12],"radius_factor":0.12},
+    {"name":"front_elbow.L","parent":"chest","default_position":[0.28,-0.18,-0.16],"radius_factor":0.55,"symmetry_pair":"front_elbow.R"},
+    {"name":"front_foot.L","parent":"front_elbow.L","default_position":[0.35,-0.28,-0.42],"radius_factor":0.4,"symmetry_pair":"front_foot.R"},
+    {"name":"front_elbow.R","parent":"chest","default_position":[-0.28,-0.18,-0.16],"radius_factor":0.55,"symmetry_pair":"front_elbow.L"},
+    {"name":"front_foot.R","parent":"front_elbow.R","default_position":[-0.35,-0.28,-0.42],"radius_factor":0.4,"symmetry_pair":"front_foot.L"},
+    {"name":"rear_knee.L","parent":"pelvis","default_position":[0.29,0.2,-0.17],"radius_factor":0.65,"symmetry_pair":"rear_knee.R"},
+    {"name":"rear_foot.L","parent":"rear_knee.L","default_position":[0.36,0.13,-0.42],"radius_factor":0.45,"symmetry_pair":"rear_foot.R"},
+    {"name":"rear_knee.R","parent":"pelvis","default_position":[-0.29,0.2,-0.17],"radius_factor":0.65,"symmetry_pair":"rear_knee.L"},
+    {"name":"rear_foot.R","parent":"rear_knee.R","default_position":[-0.36,0.13,-0.42],"radius_factor":0.45,"symmetry_pair":"rear_foot.L"}
+  ]
+}

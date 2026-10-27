@@ -1,0 +1,105 @@
+{
+  "status": "timeout",
+  "hashes": {
+    "<redacted-local-path-1>": "99b16bf1d1e262bfdf99a751ecf96fd6cb1d7f5acd5d76f0a1d1da27493ffa49",
+    "<redacted-local-path-2>": "352d0da53b96402b0d8d9859d87956e85ad270559fbecafe6f23c9f26829723b"
+  },
+  "params": {
+    "low": "Helmet_low",
+    "high": "tripo_node_909d140d-780a-4b2c-9036-6a7e3a3e74c0",
+    "resolution": 2048,
+    "part_attribute": "part",
+    "shell_parts": [
+      0
+    ],
+    "cage_extrusion": 0.06,
+    "max_ray_distance": 0,
+    "highpass_sigma_px": 16,
+    "max_uv_overlap_pct": 0.01,
+    "normal_convention": "DIRECTX",
+    "pack": "ORM",
+    "margin": 16,
+    "ao_samples": 64,
+    "output_dir": "<redacted-local-path>"
+  },
+  "alignment_provenance": "Owner verified inverse of p_final=.2857*(p_high_world-(0,0,.55)) applied to low only; original high matrix_world preserved",
+  "high_original_matrix_world": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      -0.0003814697265625
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      -0.0001373291015625
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "low_matrix_world": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "part_face_histogram": {
+    "0": 2160,
+    "2": 96,
+    "3": 96,
+    "4": 177,
+    "10": 66,
+    "11": 66,
+    "12": 52,
+    "13": 52,
+    "14": 40,
+    "15": 40,
+    "16": 76,
+    "1": 208,
+    "6": 78,
+    "7": 78,
+    "8": 234,
+    "9": 50
+  },
+  "parameter_provenance": {
+    "shell_parts": "nearest_transfer.py shell_only uses part0",
+    "cage_extrusion": "Owner verified .06 original model units",
+    "max_ray_distance": "tool default0 (unlimited), historical CLI value unavailable",
+    "ao_samples": "tool default64, self-AO; reference self-only script uses128",
+    "highpass_sigma_px": "tool default16; reference highpass script takes CLI sigma",
+    "max_uv_overlap_pct": "Tool default .01; actual handler audits evaluated Triangulate geometry. Base-only R5 overlap remains separately reported."
+  },
+  "limit_seconds": 600
+}

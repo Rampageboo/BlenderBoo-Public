@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender Reference Modeling"
+  short_description: "Match editable Blender assets to measured references"
+  default_prompt: "Use $blender-reference-modeling to build or refine this Blender asset against the supplied references."

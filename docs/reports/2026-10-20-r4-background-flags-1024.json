@@ -1,0 +1,48 @@
+[
+  {
+    "factory_startup": true,
+    "create_no_window": false,
+    "exit": 0,
+    "wall_s": 33.265999999995984,
+    "cpu_s": 34.03125,
+    "priority_classes": [
+      32
+    ],
+    "threads_min": 1,
+    "threads_max": 53,
+    "log": "<redacted-local-path>",
+    "workload": [
+      {
+        "seconds": 31.549910100002307,
+        "threads_mode": "AUTO",
+        "render_threads": 16,
+        "fallback": 1048576,
+        "misses": 0,
+        "module": "<redacted-local-path>"
+      }
+    ]
+  },
+  {
+    "factory_startup": true,
+    "create_no_window": true,
+    "exit": 0,
+    "wall_s": 22.718000000000757,
+    "cpu_s": 25.78125,
+    "priority_classes": [
+      32
+    ],
+    "threads_min": 1,
+    "threads_max": 53,
+    "log": "<redacted-local-path>",
+    "workload": [
+      {
+        "seconds": 21.473804699999164,
+        "threads_mode": "AUTO",
+        "render_threads": 16,
+        "fallback": 1048576,
+        "misses": 0,
+        "module": "<redacted-local-path>"
+      }
+    ]
+  }
+]

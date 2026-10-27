@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender Hard-Surface Modeling"
+  short_description: "Model and review hard-surface assets to a defined finish"
+  default_prompt: "Use $blender-hard-surface-modeling to model this asset in Blender and verify it against its references."

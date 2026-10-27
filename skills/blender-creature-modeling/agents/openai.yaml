@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender Creature Modeling"
+  short_description: "Model and review static or rigged creatures"
+  default_prompt: "Use $blender-creature-modeling to build and verify this creature asset in Blender."

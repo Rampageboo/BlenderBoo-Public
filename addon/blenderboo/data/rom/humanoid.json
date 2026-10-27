@@ -1,0 +1,11 @@
+{
+  "body_plan": "humanoid",
+  "status": "editable_proposal",
+  "poses": [
+    {"name": "elbow_flex_L", "bones": [{"bone": "elbow.L", "axis": "Z", "degrees": 75}]},
+    {"name": "elbow_flex_R", "bones": [{"bone": "elbow.R", "axis": "Z", "degrees": -75}]},
+    {"name": "knee_flex_L", "bones": [{"bone": "knee.L", "axis": "X", "degrees": 80}]},
+    {"name": "knee_flex_R", "bones": [{"bone": "knee.R", "axis": "X", "degrees": 80}]},
+    {"name": "neck_turn", "bones": [{"bone": "neck", "axis": "Z", "degrees": 45}]}
+  ]
+}

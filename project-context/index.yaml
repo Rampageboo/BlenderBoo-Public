@@ -1,0 +1,47 @@
+schema_version: 3
+project:
+  name: "BlenderBoo"
+  summary: "A Blender control layer with typed tools and unrestricted python.exec: a transport-agnostic add-on, authenticated loopback bridge, and separate stdio MCP process. The product is the tooling, not any 3D asset."
+  context_confidence: current
+metadata:
+  last_updated: "2026-10-20"
+  last_verified_branch: "main"
+  last_verified_commit: "718828fc7b98d8081d2158c37b54af4190082f9f"
+  updated_by: "Codex (BlenderBoo 0.8.0 source tests and rename cutover)"
+modules:
+  - id: product-intent
+    source: sources/01-product-intent.md
+    purpose: Product identity, target user, direction, and non-goals.
+    read_when: Product behavior, scope, UX, or priority is material.
+    depends_on: []
+    status: ready
+  - id: architecture-decisions
+    source: sources/02-architecture-decisions.md
+    purpose: Normative architecture decisions, constraints, external boundaries, and contracts not derivable from code.
+    read_when: Architecture, persistence, public contracts, or dependencies change.
+    depends_on: [product-intent]
+    status: ready
+  - id: project-state
+    source: sources/03-project-state.md
+    purpose: Business, release, migration, validation, blocker, and next-fork state not derivable from repository topology.
+    read_when: Starting or resuming implementation.
+    depends_on: [product-intent]
+    status: ready
+  - id: decisions
+    source: sources/04-decisions.md
+    purpose: Active resolved decisions and pending decision boundaries.
+    read_when: A task may conflict with a prior or pending decision.
+    depends_on: [product-intent, architecture-decisions]
+    status: ready
+  - id: risks-and-gotchas
+    source: sources/05-risks-and-gotchas.md
+    purpose: Active high-value risks, failure modes, and hard-won gotchas.
+    read_when: The task touches a named risk-sensitive path.
+    depends_on: [architecture-decisions]
+    status: ready
+  - id: research-policy
+    source: sources/06-research-policy.md
+    purpose: Project-owned research boundary, durable decisions, and validity limits.
+    read_when: External research or a Research Decision is relevant.
+    depends_on: [decisions]
+    status: ready

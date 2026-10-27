@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blenderboo-mcp"
+version = "0.10.0"
+description = "Typed MCP stdio adapter for BlenderBoo"
+requires-python = ">=3.11"
+dependencies = ["mcp>=1.27,<2", "pydantic>=2.11,<3"]
+
+[project.scripts]
+blenderboo-mcp = "blenderboo_mcp.server:main"
+codex-blender-mcp = "blenderboo_mcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

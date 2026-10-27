@@ -1,0 +1,70 @@
+schema_version: 3
+metadata:
+  last_updated: "2026-10-20"
+  updated_by: "Codex (BlenderBoo 0.8.0 source tests and rename cutover)"
+git_environments: []
+workflow:
+  task_coordination_mode: owner-direct
+  codex_routing_target: unknown
+  codex_model_id: ""
+  codex_thread_id: ""
+  reasoning_effort: unknown
+  git_execution_mode: codex-git
+  review_mode: "Owner places Blender Empty markers and supplies screenshots; the agent generalizes, previews the systemic fix, versions, and renders evidence"
+codebase_map:
+  status: stale
+  provider: graphify
+  provider_version: "graphifyy 0.9.32 via uv tool"
+  project_map_root: "graphify-out/"
+  corpus_scope:
+    - "included: addon/blenderboo/**/*.py (current package; stored graph revision predates rename)"
+    - "included: mcp_server/pyproject.toml, mcp_server/src/**/*.py, mcp_server/tests/**/*.py"
+    - "included: scripts/*.py, tests/*.py"
+    - "excluded: dist/, reference_cache/, __pycache__/, docs/, and images"
+  build_mode: "AST structural extraction only; no semantic pass, no LLM tokens"
+  metrics:
+    files: 101
+    nodes: 2075
+    edges: 7940
+    communities: 73
+  data_boundary: "fully local; nothing transmitted to any external service"
+  artifact_git_policy: "graphify-out/* ignored; GRAPH_REPORT.md tracked"
+  map_maintainer_role: implementer
+  freshness_acceptor_role: integration-acceptor
+  update_trigger: manual
+  last_successful_update: "2026-08-04"
+  source_revision_represented: null
+  health_result: "post-build graph check OK; no dangling, missing-endpoint, self-loop, or collapsed edges; raw pre-build producer loss cannot be remeasured from graph.json"
+  global_map_membership: none
+research:
+  project_name: ""
+  project_reference: ""
+  memory_mode: unknown
+  approved_source_classes: []
+  private_content_transmission: ask-each-time
+  last_verified: ""
+paths:
+  - "addon/blenderboo/ - the BlenderBoo add-on with typed tools and python.exec"
+  - "mcp_server/ - standalone stdio MCP process, outside Blender"
+  - "tests/ - pure-Python registry, guard, bridge, and socket tests"
+  - "tests/run_headless.py - Blender headless suite against a real install"
+  - "mcp_server/tests/ - tests against the real official MCP SDK"
+  - "dist/ - built add-on ZIPs and dist/installed-backups/ for prior installs"
+  - "docs/v0.5-v1-capability-roadmap.md - Owner-approved staged capability path"
+commands:
+  - "python scripts/bridge_session.py - one-command session bootstrap: fresh token, bridge restart, managed ~/.codex/config.toml rewrite, live verification"
+  - "python -m pytest tests/ - pure-Python suite"
+  - "blender --factory-startup ... tests/run_headless.py - headless qualification"
+  - "system.doctor / adapter.schema_audit - live health and schema drift, per round"
+versions:
+  - "Blender 5.2.0 LTS is the qualification target"
+  - "official MCP SDK pinned to mcp>=1.27,<2 while SDK v2 is pre-release"
+identifiers:
+  - "bridge listens on 127.0.0.1:9877"
+  - "CBT_BRIDGE_TOKEN - transient per session; never stored in this repository, logs, or context"
+  - "CBT_MCP_TOOL_MODE=search - adapter-start setting, not a live toggle; needs an MCP process restart"
+active_exact_constraints:
+  - "Unrestricted python.exec is approved through the authenticated main-thread bridge; no unauthenticated remote surface, automatic live-plugin update, or implicit mutation retry."
+  - "GPU capture never runs from a bpy.app.timers callback; use the deferred draw-handler pattern."
+  - "Restart Blender after any add-on upgrade; sys.modules keeps the old submodules."
+  - "Read the live tool count from system.doctor, never from written context."

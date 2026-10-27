@@ -1,0 +1,11 @@
+{
+  "body_plan": "reptile",
+  "status": "editable_proposal",
+  "poses": [
+    {"name": "tail_left", "bones": [{"bone": "tail_base", "axis": "Z", "degrees": 35}, {"bone": "tail_mid", "axis": "Z", "degrees": 35}]},
+    {"name": "tail_right", "bones": [{"bone": "tail_base", "axis": "Z", "degrees": -35}, {"bone": "tail_mid", "axis": "Z", "degrees": -35}]},
+    {"name": "front_flex_L", "bones": [{"bone": "front_elbow.L", "axis": "X", "degrees": 65}]},
+    {"name": "rear_flex_L", "bones": [{"bone": "rear_knee.L", "axis": "X", "degrees": 70}]},
+    {"name": "jaw_open", "bones": [{"bone": "jaw", "axis": "X", "degrees": 25}]}
+  ]
+}

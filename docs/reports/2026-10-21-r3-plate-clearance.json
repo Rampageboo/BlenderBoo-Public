@@ -1,0 +1,11 @@
+{
+  "samples": 384,
+  "min_signed_distance": 0.0003177806219696322,
+  "max_signed_distance": 0.003911443066954234,
+  "inside_samples_tolerance1e_6": 0,
+  "base_min_signed_distance": 0.0003177806219696322,
+  "base_inside_samples_tolerance1e_6": 0,
+  "scene_unit_scale": 1.0,
+  "projection_outward_offset_scene_units": 0.0009594000142961741,
+  "bvh_overlap_pairs": 0
+}

@@ -1,0 +1,15 @@
+{
+  "adapter_path": "<redacted-local-path>",
+  "doctor_version": "0.8.3",
+  "adapter_version": "0.8.3",
+  "python_exec_result": 42,
+  "addon_tools": 184,
+  "schema_errors": 0,
+  "schema_warnings": 0,
+  "logged_calls": 79,
+  "token_redacted": true,
+  "default_refusal_reason_visible": true,
+  "default_fair_fit_analysis_visible": true,
+  "lathe_quality_gate_pass": true,
+  "projected_plate_offset_scene_units": 0.0019216000286340713
+}

@@ -1,0 +1,22 @@
+{
+  "adapter_path": "<redacted-local-path>",
+  "doctor_version": "0.9.1",
+  "adapter_version": "0.9.1",
+  "python_exec_result": 42,
+  "addon_tools": 187,
+  "schema_errors": 0,
+  "schema_warnings": 0,
+  "logged_calls": 121,
+  "token_redacted": true,
+  "default_refusal_reason_visible": true,
+  "default_fair_fit_analysis_visible": true,
+  "lathe_quality_gate_pass": true,
+  "projected_plate_offset_scene_units": 0.0019216000286340713,
+  "slab_opening_mode": "pocket",
+  "region_seams_planned": 16,
+  "atlas_cross_object_overlap_pixels": 4032,
+  "named_join_sources_preserved": true,
+  "doctor_per_tool_schema_digests": 187,
+  "cached_join_defaults_accepted": true,
+  "detail_clip_scope": "camera_depth"
+}

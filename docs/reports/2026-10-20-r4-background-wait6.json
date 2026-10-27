@@ -1,0 +1,8 @@
+{
+  "requested_wait_ms": 6000,
+  "elapsed_s": 6.01600000000326,
+  "ok": true,
+  "status": "running",
+  "phase": "nearest_projection",
+  "blender_dispatch_count": 0
+}

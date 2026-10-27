@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+dist/
+tests/.tmp_headless/
+tests/.tmp_geometry_headless/
+tests/.tmp_hard_surface_workflows_headless/
+tests/.tmp_modeling_headless/
+tests/.tmp_modeling_workflows_headless/
+tests/.tmp_topology_precision_headless/
+tests/.tmp_topology_construction_headless/
+tests/.tmp_selection_workplane_headless/
+tests/.tmp_spin_screw_headless/
+tests/.tmp_annotation_headless/
+tests/.tmp_architecture_headless/
+skills/*/learning.jsonl
+tests/.tmp_rigging_headless/
+tests/.tmp_mcp_sdk/
+tests/.tmp_pure/
+tests/.tmp_unittest/
+tests/.tmp_blender_config/
+tests/.tmp_gui_render_smoke/
+tests/.tmp_call_logs/
+tests/.tmp_deployment_verify/
+addon/*.zip
+mcp_server/build/
+*.egg-info/
+
+# Codebase map: derived artifact, rebuilt on demand.
+# GRAPH_REPORT.md is kept because it is small, readable, and diffs meaningfully.
+graphify-out/*
+!graphify-out/GRAPH_REPORT.md

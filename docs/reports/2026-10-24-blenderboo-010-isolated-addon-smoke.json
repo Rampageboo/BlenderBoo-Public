@@ -1,0 +1,12 @@
+{
+  "addon_path": "<redacted-local-path>",
+  "addon_version": [
+    0,
+    10,
+    0
+  ],
+  "blender_version": "5.2.3 LTS",
+  "doctor_healthy": true,
+  "configured_adapter_source": "<redacted-local-path>",
+  "adapter_source_mode": "isolated_override"
+}

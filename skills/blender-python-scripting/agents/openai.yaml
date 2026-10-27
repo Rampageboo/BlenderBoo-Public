@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender Python Scripting"
+  short_description: "Custom Blender Python through the toolkit"
+  default_prompt: "Use $blender-python-scripting to implement and verify this custom Blender Python operation."

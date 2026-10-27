@@ -1,0 +1,11 @@
+{
+  "adapter_path": "<redacted-local-path>",
+  "doctor_version": "0.8.1",
+  "adapter_version": "0.8.1",
+  "python_exec_result": 42,
+  "addon_tools": 184,
+  "schema_errors": 0,
+  "schema_warnings": 0,
+  "logged_calls": 64,
+  "token_redacted": true
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender Asset Validation"
+  short_description: "Check Blender asset evidence and deliverables"
+  default_prompt: "Use $blender-asset-validation to review this Blender asset against its stated acceptance criteria."

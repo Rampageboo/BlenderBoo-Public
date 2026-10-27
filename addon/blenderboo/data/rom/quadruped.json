@@ -1,0 +1,11 @@
+{
+  "body_plan": "quadruped",
+  "status": "editable_proposal",
+  "poses": [
+    {"name": "front_flex_L", "bones": [{"bone": "front_lower.L", "axis": "X", "degrees": 65}]},
+    {"name": "front_flex_R", "bones": [{"bone": "front_lower.R", "axis": "X", "degrees": 65}]},
+    {"name": "rear_flex_L", "bones": [{"bone": "rear_lower.L", "axis": "X", "degrees": 75}]},
+    {"name": "rear_flex_R", "bones": [{"bone": "rear_lower.R", "axis": "X", "degrees": 75}]},
+    {"name": "neck_turn", "bones": [{"bone": "neck", "axis": "Z", "degrees": 40}]}
+  ]
+}
